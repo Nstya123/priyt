@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class ="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg  bg-dark border-bottom border-body" data-bs-theme="dark">      
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Приют для породистых собак</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Все породы</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Бульдоги</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Купить</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Другие питомцы
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Кошки</a></li>
+            <li><a class="dropdown-item" href="#">Грызуны</a></li>
+            <li><a class="dropdown-item" href="#">Птицы</a></li>
+            <li><a class="dropdown-item" href="#">Служба ветеринаров</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+        
+
+        </div>
+    </div>
+     
+    <div class="row">
+        <p>Наш приют помогает животным найти новых хозяев</p>
+    </div>
+    <form action="https://yandex.ru">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Как к вам обращаться?(ФИО)</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="Имя и фамилия">Заполните пожалуйста это поле.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Ваш телефон</label>
+          <input type="tel" class="form-control" id="exampleInputPassword1">
+        </div>
+        <label for="exampleInputEmail1" class="form-label">Когда с вами связаться?</label>
+        <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="Имя и фамилия">Заполните пожалуйста это поле.</div>
+        <label for="exampleInputEmail1" class="form-label"></label>
+        <label for="exampleInputEmail1" class="form-label">Почта</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="Имя и фамилия">Заполните пожалуйста это поле.</div>
+        <label for="exampleInputEmail1" class="form-label"></label>
+        <button type="submit" class="btn btn-primary">Отправить</button>
+    </form>
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">@</span>
+        <input type="text" class="form-control" placeholder="Имя пользователя" aria-label="Имя пользователя" aria-describedby="basic-addon1">
+      </div>
+      
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Имя пользователя получателя" aria-label="Имя пользователя получателя" aria-describedby="basic-addon2">
+        <span class="input-group-text" id="basic-addon2">@example.com</span>
+      </div>
+      
+      <div class="mb-3">
+        <label for="basic-url" class="form-label">Ваш URL-адрес</label>
+        <div class="input-group">
+          <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+        </div>
+        <div class="form-text">Пример текста справки выходит за пределы группы ввода.</div>
+      </div>
+      
+      <div class="input-group mb-3">
+        <span class="input-group-text">$</span>
+        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+        <span class="input-group-text">.00</span>
+      </div>
+      
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Имя пользователя"  aria-label="Имя пользователя">
+        <span class="input-group-text">@</span>
+        <input type="text" class="form-control" placeholder="Сервер" aria-label="Сервер">
+      </div>
+      
+      <div class="input-group">
+        <span class="input-group-text">Зарегестрируйтесь на нашем сайте,что бы помочь или забрать себе животного!</span>
+        <textarea class="form-control" aria-label="С текстовым полем"></textarea>
+      </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
